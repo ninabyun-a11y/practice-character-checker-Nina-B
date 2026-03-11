@@ -1,0 +1,4 @@
+const readline = require('readline-sync');
+let phrase = readline.question("Type any word or phrase that includes at least 10 characters: ");
+let indexNumber = Number(readline.question("Pick a number 0-10: "))
+console.log("In your phrase, the character at index " + indexNumber + " is " + phrase[indexNumber])
